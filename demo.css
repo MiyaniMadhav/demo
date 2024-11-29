@@ -343,52 +343,6 @@
     }
     
 }
-@media(max-width:992px) {
-    #p1 {
-        font-size: 35px;
-        color: white;
-        font-style: Karla;
-        padding-left: 70px;
-        margin-top: 20px;
-    }
-
-    #button {
-        margin-left: 300px;
-        margin-top: -70px;
-    }
-
-    #login {
-        margin-left: 150px;
-    }
-
-    #teli {
-        height: 350px;
-        width: 350px;
-        margin-left: 15px;
-        margin-top: 130px;
-    }
-
-    #p7 {
-        margin-top: -340px;
-        margin-left: 400px;
-        font-size: 35px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 400px;
-        margin-top: -30px;
-        font-size: 17px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 30px;
-        width: 120px;
-        margin-left: 400px;
-    }
-}
-
 @media(max-width:768px) {
     #p1 {
         font-size: 30px;
@@ -464,4 +418,155 @@
         font-size: 12px;
         text-align: center;
     }
+}
+@media(max-width:600px) {
+    #p1 {
+        font-size: 25px;
+        color: white;
+        font-style: Karla;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #button {
+        margin-left: 170px;
+        margin-top: -47px;
+        #h1{
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    
+        #a1 {
+            padding-left: 30px;
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    
+        #s1 {
+            padding-left: 30px;
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    
+        #he1 {
+            padding-left: 30px;
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    }
+
+    #login {
+        border-radius: 50px;
+        height: 20px;
+        width: 64px;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        background-color: transparent;
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: 75px;
+    
+    }
+
+    #teli {
+        height: 200px;
+        width: 200px;
+        margin-left: 20px;
+        margin-top: 270px;
+    }
+
+    #p7 {
+        margin-top: -400px;
+        margin-left: 30px;
+        font-size: 30px;
+        font-style: Karla;
+    }
+
+    #p9 {
+        margin-left: 30px;
+        margin-top: -20px;
+        font-size: 15px;
+        font-style: Karla;
+    }
+
+    #getintouch {
+        height: 30px;
+        width: 120px;
+        margin-left: 30px;
+    }
+}
+@media(max-width:600px) {
+    #p1 {
+        font-size: 25px;
+        color: white;
+        font-style: Karla;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    #button {
+        margin-left: 20px;
+        margin-top: -10px;
+        #h1{
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    
+        #a1 {
+            padding-left: 15px;
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    
+        #s1 {
+            padding-left: 15px;
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    
+        #he1 {
+            padding-left: 15px;
+            color: white;
+            font-size: 12px;
+            font-style: k2d;
+        }
+    }
+    #login {
+        border-radius: 50px;
+        height: 20px;
+        width: 64px;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        background-color: transparent;
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: 42px;
+    
+    }
+    #p7 {
+        margin-top: -400px;
+        margin-left: 30px;
+        font-size: 27px;
+        font-style: Karla;
+    }
+    #p9 {
+        margin-left: 30px;
+        margin-top: -20px;
+        font-size: 12px;
+        font-style: Karla;
+    }
+
+    #getintouch {
+        height: 27px;
+        width: 115px;
+        margin-left: 30px;
+    }
+
+}
+@media(max-width:320px) {
+
 }
