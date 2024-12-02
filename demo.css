@@ -1,16 +1,16 @@
 #bgimage {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 0px ;
     z-index: -1;
 }
 
 #p1 {
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     font-style: Karla;
     padding-left: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* #home{
@@ -64,13 +64,15 @@
     font-size: 17px;
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
-    margin-left: 290px;
+    margin-left: 340px;
 
 }
 
 #teli {
     margin-left: 7px;
-    margin-top: 55px;
+    margin-top: 150px;
+    height: 400px;
+    width: 400px;
 }
 
 #p7 {
@@ -96,7 +98,7 @@
     color: white;
 }
 
-@media(max-width:1433px) {
+/* @media(max-width:1433px) {
     #p1 {
         padding-left: 100px;
     }
@@ -154,8 +156,10 @@
     }
 
     #teli {
-        margin-left: 30px;
-
+       height: 400px;
+       width: 400px;
+        margin-left: 70px;
+        margin-top: -150px;
     }
 
     #p7 {
@@ -272,6 +276,40 @@
         margin-left: 500px;
     }   
 
+}
+@media(max-width:1075px) {
+    #p1 {
+        font-size: 35px;
+        color: white;
+        font-style: Karla;
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+    #teli {
+        height: 300px;
+        width: 300px;
+        margin-left: 45px;
+        margin-top: 170px;
+    }
+    #p7 {
+        margin-top: -400px;
+        margin-left: 500px;
+        font-size: 37px;
+        font-style: Karla;
+    }
+
+    #p9 {
+        margin-left: 500px;
+        margin-top: -30px;
+        font-size: 17px;
+        font-style: Karla;
+    }
+
+    #getintouch {
+        height: 30px;
+        width: 120px;
+        margin-left: 500px;
+    }   
 }
 @media(max-width:1024px) {
     #p1 {
@@ -430,9 +468,9 @@
 
     #button {
         margin-left: 170px;
-        margin-top: -47px;
+        margin-top: -57px;
         #h1{
-            color: white;
+            color: rgb(255, 255, 255);
             font-size: 12px;
             font-style: k2d;
         }
@@ -647,4 +685,4 @@
         width: 115px;
         margin-left: 15px;
     }
-}
+} */
