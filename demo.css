@@ -1,688 +1,97 @@
-#bgimage {
-    position: absolute;
-    left: 0px;
-    top: 0px ;
-    z-index: -1;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'gilor';
 }
 
-#p1 {
-    font-size: 45px;
+.mian {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    border-bottom: 1px solid black;
+}
+
+.nav h1 {
+    color: #EA4880;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.nav2 button {
+    height: 6vh;
+    width: 6vw;
+    border-radius: 10px;
     color: white;
-    font-style: Karla;
-    padding-left: 40px;
-    margin-top: 40px;
+    background-color: #EA4880;
+    border-color: #EA4880;
+    font-size: 1.5vw;
 }
 
-/* #home{
-    margin-left: 500px;
-    margin-top: -75px;
-    font-size: 20px;
+.section {
+    height: 540px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 5vw;
+    padding-top: 7vh;
+    padding-left: 3vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.left h1 span {
+    color: rgb(178, 58, 198);
+}
+
+.left p {
+    font-size: 1.2vw;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.left button {
+    height: 7vh;
+    width: 9vw;
+    border-radius: 7px;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    font-size: 1.3vw;
+    text-align: center;
+    background-color: rgb(178, 58, 198);
     color: white;
-    font-style:k2d;
-  }
-  #Aboutus{
-    display: inline;
-  } */
-
-#button {
-    margin-left: 500px;
-    margin-top: -90px;
-
-    #h1{
-        color: white;
-        font-size: 20px;
-        font-style: k2d;
-    }
-
-    #a1 {
-        padding-left: 50px;
-        color: white;
-        font-size: 20px;
-        font-style: k2d;
-    }
-
-    #s1 {
-        padding-left: 50px;
-        color: white;
-        font-size: 20px;
-        font-style: k2d;
-    }
-
-    #he1 {
-        padding-left: 50px;
-        color: white;
-        font-size: 20px;
-        font-style: k2d;
-    }
+    border-color: rgb(178, 58, 198);
 }
 
-#login {
-    border-radius: 50px;
-    height: 39px;
-    width: 85px;
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    background-color: transparent;
-    border: 2px solid rgb(255, 255, 255);
-    margin-left: 340px;
-
+.right img {
+    height: 100%;
+    width: 100%;
 }
-
-#teli {
-    margin-left: 7px;
-    margin-top: 150px;
-    height: 400px;
-    width: 400px;
-}
-
-#p7 {
-    margin-top: -400px;
-    margin-left: 600px;
-    font-size: 39px;
-    font-style: Karla;
-}
-
-#p9 {
-    margin-left: 600px;
-    margin-top: -30px;
-    font-size: 20px;
-    font-style: Karla;
-}
-
-#getintouch {
-    border-radius: 50px;
-    height: 30px;
-    width: 120px;
-    margin-left: 600px;
-    background-color: #450046;
-    color: white;
-}
-
-/* @media(max-width:1433px) {
-    #p1 {
-        padding-left: 100px;
-    }
-
-    #button {
-        margin-left: 550px;
-
-    }
-
-    #teli {
-        margin-left: 47px;
-        margin-top: 150px;
-    }
-
-    #p7 {
-        margin-top: -450px;
-        margin-left: 600px;
-        font-size: 50px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 600px;
-        margin-top: -30px;
-        font-size: 20px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        border-radius: 50px;
-        height: 40px;
-        width: 170px;
-        margin-left: 600px;
-        background-color: #450046;
-        color: white;
-        font-size: 17px;
-        text-align: center;
-    }
-}
-
-@media(max-width:1325px) {
-    #p1 {
-        padding-left: 80px;
-    }
-
-    #button {
-        margin-left: 495px;
-
-    }
-
-    #login {
-
-        margin-left: 270px;
-
-    }
-
-    #teli {
-       height: 400px;
-       width: 400px;
-        margin-left: 70px;
-        margin-top: -150px;
-    }
-
-    #p7 {
-        margin-top: -450px;
-        margin-left: 600px;
-        font-size: 40px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 600px;
-        margin-top: -30px;
-        font-size: 20px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        border-radius: 50px;
-        height: 30px;
-        width: 120px;
-        margin-left: 600px;
-        background-color: #450046;
-        color: white;
-    }
-}
-
-@media(max-width:1249px) {
-    #login {
-        margin-left: 230px;
-    }
-
-    #button {
-        margin-left: 460px;
-
-    }
-
-    #teli {
-        margin-left: 30px;
-    }
-}
-
-@media(max-width: 1200px) {
-    #teli {
-        height: 450px;
-        width: 450px;
-        margin-left: 15x;
-        margin-top: 200px;
-    }
-
-    #login {
-        margin-left: 200px;
-    }
-
-    #button {
-        margin-left: 440px;
-
-    }
-
-    #p7 {
-        margin-top: -420px;
-        margin-left: 550px;
-        font-size: 40px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 550px;
-        margin-top: -30px;
-        font-size: 20px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 30px;
-        width: 120px;
-        margin-left: 550px;
-    }
-}
-@media(max-width: 1127px) {
-    #p1 {
-        font-size: 40px;
-        color: white;
-        font-style: Karla;
-        padding-left: 40px;
-        margin-top: 30px;
-    }
-    #button {
-        margin-left: 390px;
-        margin-top: -75px;
-    }
-    #teli {
-        height: 400px;
-        width: 400px;
-        margin-left: 15px;
-        margin-top: 230px;
-    }
-    #p7 {
-        margin-top: -400px;
-        margin-left: 500px;
-        font-size: 37px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 500px;
-        margin-top: -30px;
-        font-size: 17px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 30px;
-        width: 120px;
-        margin-left: 500px;
-    }   
-
-}
-@media(max-width:1075px) {
-    #p1 {
-        font-size: 35px;
-        color: white;
-        font-style: Karla;
-        padding-left: 40px;
-        margin-top: 30px;
-    }
-    #teli {
-        height: 300px;
-        width: 300px;
-        margin-left: 45px;
-        margin-top: 170px;
-    }
-    #p7 {
-        margin-top: -400px;
-        margin-left: 500px;
-        font-size: 37px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 500px;
-        margin-top: -30px;
-        font-size: 17px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 30px;
-        width: 120px;
-        margin-left: 500px;
-    }   
-}
-@media(max-width:1024px) {
-    #p1 {
-        font-size: 30px;
-        color: white;
-        font-style: Karla;
-        padding-left: 40px;
-        margin-top: 20px;
-    }
-    #button {
-        margin-left: 359px;
-        margin-top: -65px;
-    
-        #h1{
-            color: white;
-            font-size: 15px;
-            font-style: k2d;
-        }
-    
-        #a1 {
-            padding-left: 50px;
-            color: white;
-            font-size: 15px;
-            font-style: k2d;
-        }
-    
-        #s1 {
-            padding-left: 50px;
-            color: white;
-            font-size: 15px;
-            font-style: k2d;
-        }
-    
-        #he1 {
-            padding-left: 50px;
-            color: white;
-            font-size: 15px;
-            font-style: k2d;
-        }
-    }
-    #teli {
-        height: 300px;
-        width: 300px;
-        margin-left: 50px;
-        margin-top: 190px;
-    }
-    
-    #p7 {
-        margin-top: -320px;
-        margin-left: 480px;
-        font-size: 30px;
-        font-style: Karla;
-    }
-    
-    #p9 {
-        margin-left: 480px;
-        margin-top: -30px;
-        font-size: 15px;
-        font-style: Karla;
-    }
-    
-    #getintouch {
-        border-radius: 50px;
-        height: 30px;
-        width: 120px;
-        margin-left: 480px;
-        background-color: #450046;
-        color: white;
-    }
-    
-}
-@media(max-width:768px) {
-    #p1 {
-        font-size: 30px;
-        color: white;
-        font-style: Karla;
-        padding-left: 50px;
-        margin-top: 20px;
-    }
-
-    #button {
-        margin-left: 230px;
-        margin-top: -62px;
-
-        #h1 {
-            color: white;
-            font-size: 17px;
-            font-style: k2d;
-        }
-
-        #a1 {
-            padding-left: 40px;
-            color: white;
-            font-size: 17px;
-            font-style: k2d;
-        }
-
-        #s1 {
-            padding-left: 40px;
-            color: white;
-            font-size: 17px;
-            font-style: k2d;
-        }
-
-        #he1 {
-            padding-left: 40px;
-            color: white;
-            font-size: 17px;
-            font-style: k2d;
-        }
-    }
-
-    #login {
-        margin-left: 70px;
-    }
-
-    #teli {
-        height: 300px;
-        width: 300px;
-        margin-left: 12px;
-        margin-top: 180px;
-    }
-
-    #p7 {
-        margin-top: -300px;
-        margin-left: 340px;
-        font-size: 25px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 340px;
-        margin-top: -20px;
-        font-size: 14px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 27px;
-        width: 107x;
-        margin-left: 340px;
-        background-color: #450046;
-        color: white;
-        font-size: 12px;
-        text-align: center;
-    }
-}
-@media(max-width:600px) {
-    #p1 {
-        font-size: 25px;
-        color: white;
-        font-style: Karla;
-        padding-left: 30px;
-        margin-top: 20px;
-    }
-
-    #button {
-        margin-left: 170px;
-        margin-top: -57px;
-        #h1{
-            color: rgb(255, 255, 255);
-            font-size: 12px;
-            font-style: k2d;
-        }
-    
-        #a1 {
-            padding-left: 30px;
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    
-        #s1 {
-            padding-left: 30px;
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    
-        #he1 {
-            padding-left: 30px;
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    }
-
-    #login {
-        border-radius: 50px;
-        height: 20px;
-        width: 64px;
-        color: rgb(255, 255, 255);
-        font-size: 12px;
-        background-color: transparent;
-        border: 2px solid rgb(255, 255, 255);
-        margin-left: 75px;
-    
-    }
-
-    #teli {
-        height: 200px;
-        width: 200px;
-        margin-left: 20px;
-        margin-top: 270px;
-    }
-
-    #p7 {
-        margin-top: -400px;
-        margin-left: 30px;
-        font-size: 30px;
-        font-style: Karla;
-    }
-
-    #p9 {
-        margin-left: 30px;
-        margin-top: -20px;
-        font-size: 15px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 30px;
-        width: 120px;
-        margin-left: 30px;
-    }
-}
-@media(max-width:393px) {
-    #p1 {
-        font-size: 25px;
-        color: white;
-        font-style: Karla;
-        padding-left: 20px;
-        margin-top: 20px;
-    }
-    #button {
-        margin-left: 20px;
-        margin-top: -10px;
-        #h1{
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    
-        #a1 {
-            padding-left: 15px;
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    
-        #s1 {
-            padding-left: 15px;
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    
-        #he1 {
-            padding-left: 15px;
-            color: white;
-            font-size: 12px;
-            font-style: k2d;
-        }
-    }
-    #teli {
-        height: 200px;
-        width: 200px;
-        margin-left: 20px;
-        margin-top: 270px;
-    }
-    #login {
-        border-radius: 50px;
-        height: 20px;
-        width: 64px;
-        color: rgb(255, 255, 255);
-        font-size: 12px;
-        background-color: transparent;
-        border: 2px solid rgb(255, 255, 255);
-        margin-left: 42px;
-    
-    }
-    #p7 {
-        margin-top: -400px;
-        margin-left: 30px;
-        font-size: 27px;
-        font-style: Karla;
-    }
-    #p9 {
-        margin-left: 30px;
-        margin-top: -20px;
-        font-size: 12px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 27px;
-        width: 115px;
-        margin-left: 30px;
-    }
-
-}
-@media(max-width:393px) {
-    #p7 {
-        margin-top: -400px;
-        margin-left: 15px;
-        font-size: 25px;
-        font-style: Karla;
-    }
-    #p9 {
-        margin-left: 15px;
-        margin-top: -20px;
-        font-size: 12px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 27px;
-        width: 115px;
-        margin-left: 15px;
-    }
-    #login {
-        border-radius: 50px;
-        height: 20px;
-        width: 64px;
-        color: rgb(255, 255, 255);
-        font-size: 12px;
-        background-color: transparent;
-        border: 2px solid rgb(255, 255, 255);
-        margin-left: 82px;
-    
-    }
-    #teli {
-        height: 200px;
-        width: 200px;
-        margin-left: -30px;
-        margin-top: 270px;
-    }
-}
-@media(max-width:320px) {
-    #login {
-        border-radius: 50px;
-        height: 20px;
-        width: 64px;
-        color: rgb(255, 255, 255);
-        font-size: 12px;
-        background-color: transparent;
-        border: 2px solid rgb(255, 255, 255);
-        margin-left: 10px;
-    
-    }
-    #teli {
-        height: 200px;
-        width: 200px;
-        margin-left:-30px;
-        margin-top: 247px;
-    }
-    
-    #p7 {
-        margin-top: -400px;
-        margin-left: 15px;
-        font-size: 20px;
-        font-style: Karla;
-    }
-    #p9 {
-        margin-left: 15px;
-        margin-top: -20px;
-        font-size: 12px;
-        font-style: Karla;
-    }
-
-    #getintouch {
-        height: 27px;
-        width: 115px;
-        margin-left: 15px;
-    }
-} */
